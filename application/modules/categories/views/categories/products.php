@@ -12,9 +12,9 @@
             <?php
             $photo  = theme_img('no_picture.png');
 
-            if(!empty($product->images[0]))
+            if(!empty($product->images))
             {
-                $primary    = $product->images[0];
+                $primary    = $product->images;
                 foreach($product->images as $photo)
                 {
                     if(isset($photo['primary']))
