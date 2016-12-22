@@ -8,7 +8,7 @@
 
     <div class="col-nest categoryItems element">
     <?php foreach($products as $product):?>
-        <div class="col" data-cols="1/4" data-medium-cols="1/2" data-small-cols="1">
+        <div class="col" data-cols="1/5" data-medium-cols="1/2" data-small-cols="1">
             <?php
             $photo  = theme_img('no_picture.png');
 
