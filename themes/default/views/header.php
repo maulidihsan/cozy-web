@@ -69,7 +69,7 @@ if(isset($additional_header_info))
     <div class="container">
         <div class="col-nest">
             <div class="col" data-cols="1/2">
-                <a href="<?php echo base_url();?>"><img src="<?php echo theme_img('logo.png');?>" width="200px" height="80px" type="image/png"/></a>
+                <a href="<?php echo base_url();?>"><img src="<?php echo theme_img('logo.png');?>" width="250px" height="110px" type="image/png"/></a>
             </div>
             <div class="col" data-cols="1/2">
                 <nav> 
