@@ -69,7 +69,7 @@ if(isset($additional_header_info))
     <div class="container">
         <div class="col-nest">
             <div class="col" data-cols="1/2">
-                <a class="logo" href="<?php echo base_url();?>"><img src="<?php echo theme_img('logo.svg');?>" /></a>
+                <a href="<?php echo base_url();?>"><img src="<?php echo theme_img('logo.png');?>" width="200px" height="80px" type="image/png"/></a>
             </div>
             <div class="col" data-cols="1/2">
                 <nav> 
@@ -113,7 +113,7 @@ if(isset($additional_header_info))
 
         <nav class="navPrimary">
             <ul class="nav mobileNav">
-                <li><a href="/"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
+                <li><a href="<?php echo base_url();?>"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
                 <?php
                     category_loop(0, false, false);
                     page_loop(0, false, false);
