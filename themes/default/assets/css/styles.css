@@ -420,8 +420,11 @@ label.checklist input, label.radiolist input{
 -------------------------------------------------- */
 footer {
     margin-top: 45px;
-    padding: 15px 0px;
     clear:both;
+    background: #222;
+    text-align: center;
+    padding: 40px 0;
+    color: #FFF;
 }
 
 .credits {
