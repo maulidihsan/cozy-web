@@ -42,7 +42,8 @@
                 <?php if(!$product->is_giftcard): //do not display this if the product is a giftcard?>
                 <div class="categoryItemHover">
                     <div class="look">
-                        <?php echo ( $product->saleprice>0?format_currency($product->saleprice):format_currency($product->price) );?>
+                        <!-- <?php echo ( $product->saleprice>0?format_currency($product->saleprice):format_currency($product->price) );?> -->
+                        Cetak Sekarang
                     </div>
                 </div>
                 <?php endif;?>
