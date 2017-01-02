@@ -8,13 +8,13 @@
 
     <div class="col-nest categoryItems element">
     <?php foreach($products as $product):?>
-        <div class="col" data-cols="1/5" data-medium-cols="1/2" data-small-cols="1">
+        <div class="col" data-cols="1/5" data-medium-cols="1/5" data-small-cols="1">
             <?php
             $photo  = theme_img('no_picture.png');
 
-            if(!empty($product->images))
+            if(!empty($product->images[0]))
             {
-                $primary    = $product->images;
+                $primary    = $product->images[0];
                 foreach($product->images as $photo)
                 {
                     if(isset($photo['primary']))
@@ -42,8 +42,7 @@
                 <?php if(!$product->is_giftcard): //do not display this if the product is a giftcard?>
                 <div class="categoryItemHover">
                     <div class="look">
-                        <!-- <?php echo ( $product->saleprice>0?format_currency($product->saleprice):format_currency($product->price) );?> -->
-                        Cetak Sekarang
+                        <?php echo ( $product->saleprice>0?format_currency($product->saleprice):format_currency($product->price) );?>
                     </div>
                 </div>
                 <?php endif;?>

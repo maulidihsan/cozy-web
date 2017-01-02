@@ -11,7 +11,7 @@ header {
 }
 
 .logo img {
-    max-width:200px;
+    max-width:80px;
 }
 
 .nowrap {
@@ -28,7 +28,7 @@ nav ul.nav li a {
 
 nav ul.nav li:hover {
     color:#555;
-    background-color:#7ed971;
+    background-color:#f2f2f2;
 }
 
 
@@ -420,11 +420,8 @@ label.checklist input, label.radiolist input{
 -------------------------------------------------- */
 footer {
     margin-top: 45px;
+    padding: 15px 0px;
     clear:both;
-    background: #222;
-    text-align: center;
-    padding: 40px 0;
-    color: #FFF;
 }
 
 .credits {

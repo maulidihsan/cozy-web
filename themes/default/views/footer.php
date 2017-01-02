@@ -7,8 +7,11 @@
         </nav>
 
         <div class="credits">
-            © 2016 <a href="<?php echo base_url() ?>">cetakmurah.id</a>| 
-            Powered by <a href="http://gocartdv.com" target="_blank">GoCart</a>
+            <a href="http://gocartdv.com" target="_blank">
+                Driven by GoCart
+            </a>
+            <br>
+            <a href="http://gocartdv.com" target="_blank">Designed by Clear Sky Designs</a>
         </div>
     </div>
 </footer>
